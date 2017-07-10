@@ -1,0 +1,22 @@
+{
+  "name": "jstorejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanchezal/jstore.git"
+  },
+  "author": "Andres Sanchez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sanchezal/jstore/issues"
+  },
+  "homepage": "https://github.com/sanchezal/jstore#readme",
+  "dependencies": {
+    "fs-extra": "^3.0.1"
+  },
+  "keywords": [
+    "json", "storage", "jstore", "database", "small"
+  ]
+}
