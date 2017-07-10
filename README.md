@@ -1,6 +1,11 @@
 # jstore
 An easy way for lightweight storage via a JSON file.  
 
+## Installation
+```bash
+npm install jstorejs
+```
+
 ## Getting started
 ```javascript
 const jst = require('jstorejs'); //Require jstore
