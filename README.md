@@ -1,6 +1,5 @@
 # jstore
 An easy way for lightweight storage via a JSON file.  
-3 methods included:  
 
 ## Getting started
 ```javascript
