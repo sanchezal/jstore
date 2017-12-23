@@ -1,0 +1,86 @@
+{
+   "_schemes": {
+      "students": {
+         "student_id": {"type": "pk"},
+         "student_parent": {"references": "students"},
+         "student_name": {"type": "string"},
+         "address": {"type": "object"},
+         "suspended": {"type": "bool", "default": false}
+      }
+   },
+   "_increments": {"students": 11},
+   "_data": {
+      "students": [
+         {
+            "student_id": 0,
+            "student_parent": null,
+            "student_name": "Test Person",
+            "address": null,
+            "suspended": null
+         },
+         {
+            "student_id": 1,
+            "student_parent": null,
+            "student_name": "Test Person",
+            "address": null,
+            "suspended": null
+         },
+         {
+            "student_id": 2,
+            "student_parent": null,
+            "student_name": "Test Person",
+            "address": null,
+            "suspended": null
+         },
+         {
+            "student_id": 4,
+            "student_parent": null,
+            "student_name": "Test Person",
+            "address": null,
+            "suspended": null
+         },
+         {
+            "student_id": 5,
+            "student_parent": null,
+            "student_name": "Test Person",
+            "address": null,
+            "suspended": null
+         },
+         {
+            "student_id": 6,
+            "student_parent": null,
+            "student_name": "Test Person",
+            "address": null,
+            "suspended": null
+         },
+         {
+            "student_id": 7,
+            "student_parent": null,
+            "student_name": "Test Person",
+            "address": null,
+            "suspended": false
+         },
+         {
+            "student_id": 8,
+            "student_parent": null,
+            "student_name": "Test Person",
+            "address": null,
+            "suspended": true
+         },
+         {
+            "student_id": 9,
+            "student_parent": null,
+            "student_name": "Test Person",
+            "address": {"street": "test", "country": "Mexico"},
+            "suspended": true
+         },
+         {
+            "student_id": 10,
+            "student_parent": null,
+            "student_name": "Test Person",
+            "address": {"street": "test", "country": "Mexico"},
+            "suspended": true
+         }
+      ]
+   }
+}

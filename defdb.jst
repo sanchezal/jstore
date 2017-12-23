@@ -1,0 +1,23 @@
+{
+   "_schemes": {
+      "students": {
+         "student_id": {
+            "type": "pk"
+         },
+         "student_parent": {
+            "references": "students"
+         },
+         "student_name": {
+            "type": "string"
+         },
+         "address": {
+            "type": "object"
+         },
+         "suspended": {
+            "type": "bool"
+         }
+      }
+   },
+   "_increments": {},
+   "_data": {}
+}
